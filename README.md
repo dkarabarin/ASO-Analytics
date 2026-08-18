@@ -222,22 +222,7 @@ app_web/
 │   ├── Sound Amplifier_2025.xlsx
 │   ├── Sound Amplifier_2026.xlsx
 │   ├── plots/                      # Все графики (создаётся автоматически)
-│   │   ├── eda_overview.png
-│   │   ├── correlation_heatmap.png
-│   │   ├── timeseries_top5.png
-│   │   ├── monthly_analysis.png
-│   │   ├── cluster_analysis.png
-│   │   ├── cluster_timeline.png
-│   │   ├── model_comparison_with_regularization.png
-│   │   ├── feature_importance_by_group.png
-│   │   ├── predictions_vs_actual.png
-│   │   ├── hypotheses_by_cluster.png
-│   │   └── rules_from_document.png
 │   ├── saved_models/               # Сохранённые модели (создаётся автоматически)
-│   │   ├── best_model_xgboost_final.pkl
-│   │   ├── scaler_final.pkl
-│   │   ├── le_keyword.pkl
-│   │   └── le_cluster.pkl
 │   ├── clean_data.csv              # Очищенные данные (CSV)
 │   ├── clean_data.pkl              # Очищенные данные (Pickle)
 │   ├── data_with_clusters.pkl      # Данные с кластерами
