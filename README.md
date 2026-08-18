@@ -218,9 +218,37 @@ app_web/
 │       ├── __init__.py
 │       └── schemas.py              # Pydantic-схемы
 ├── data/                           # Данные (Excel-файлы)
-├── saved_models/                   # Сохранённые модели
-├── plots/                          # Графики
-├── vector_store/                   # Векторное хранилище
+│   ├── Sound Amplifier_2024.xlsx
+│   ├── Sound Amplifier_2025.xlsx
+│   ├── Sound Amplifier_2026.xlsx
+│   ├── plots/                      # Все графики (создаётся автоматически)
+│   │   ├── eda_overview.png
+│   │   ├── correlation_heatmap.png
+│   │   ├── timeseries_top5.png
+│   │   ├── monthly_analysis.png
+│   │   ├── cluster_analysis.png
+│   │   ├── cluster_timeline.png
+│   │   ├── model_comparison_with_regularization.png
+│   │   ├── feature_importance_by_group.png
+│   │   ├── predictions_vs_actual.png
+│   │   ├── hypotheses_by_cluster.png
+│   │   └── rules_from_document.png
+│   ├── saved_models/               # Сохранённые модели (создаётся автоматически)
+│   │   ├── best_model_xgboost_final.pkl
+│   │   ├── scaler_final.pkl
+│   │   ├── le_keyword.pkl
+│   │   └── le_cluster.pkl
+│   ├── clean_data.csv              # Очищенные данные (CSV)
+│   ├── clean_data.pkl              # Очищенные данные (Pickle)
+│   ├── data_with_clusters.pkl      # Данные с кластерами
+│   ├── anchor_words.csv            # Якорные слова
+│   ├── cluster_keywords.csv        # Список ключей по кластерам
+│   ├── model_results_final.csv     # Результаты ML-моделей
+│   ├── feature_importance_final.csv # Важность признаков
+│   ├── hypotheses_by_cluster_summary.csv # Результаты тестов
+│   ├── rules_from_document_summary.csv   # Результаты правил
+│   ├── final_report.json           # Итоговый отчёт
+│   └── report_summary.csv          # Краткий отчёт
 ├── requirements.txt
 ├── run.py
 └── README.md
