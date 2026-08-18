@@ -465,36 +465,4 @@ POST /api/llm/chat
 
 ---
 
-## 📄 Лицензия
 
-MIT License
-
-Copyright (c) 2024 ASO Analytics Service
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
----
-
-## 🤝 Контрибьюция
-
-1. Форкните репозиторий
-2. Создайте ветку для своей фичи (`git checkout -b feature/AmazingFeature`)
-3. Закоммитьте изменения (`git commit -m 'Add some AmazingFeature'`)
-4. Запушьте ветку (`git push origin feature/AmazingFeature`)
-5. Откройте Pull Request
-
----
-
-## 📧 Контакты
-
-- **Автор:** Denis
-- **Email:** denis@example.com
-- **Проект:** Sound Amplifier ASO Analytics
